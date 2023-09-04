@@ -402,7 +402,6 @@ int enet_tcp_test(void)
 
 
 /*--------------------http------------------------------*/
-// http://edu.chengdu.gov.cn/cdedu/c113025/2023-05/16/e5765b6737d94c6483160611a568a776/files/0914a8eb90414be588be67a1894e9ef3.pdf
 #define HTTPC_CLIENT_AGENT "lwIP/" //LWIP_VERSION_STRING" (http://savannah.nongnu.org/projects/lwip)"
 
 /* GET request basic */

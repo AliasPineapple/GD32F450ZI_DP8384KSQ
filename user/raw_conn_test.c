@@ -176,7 +176,7 @@ int socket_http_test(void)
     rt_kprintf("free resource\r\n");
     rt_thread_mdelay(2000);
 	// altcp_tls_free_config(conf);
-	rt_free(http_setting.altcp_allocator); // 放入回调中调用！！！！！
+	rt_free(http_setting.altcp_allocator);
     return 0;
 }
 
